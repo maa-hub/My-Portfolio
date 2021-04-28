@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    color: rgb(219, 120, 219);
+    background-color: white;
+}
+
+header {
+    padding: 2.5px 25px;
+    background-color: grey;
+    font-weight: bold;
+    font-size: 28px;
+    color: purple;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 28px;
+    color: purple;
+    margin: 0;
+    font-style: italic;
+}
+
+header a {
+    text-decoration: none;
+    color: purple;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+   padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+   background-size: cover;
+   background-position: center;
+   background-image: url("../images/background.jpeg");
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   height: 400px;
+   position: relative;
+  }
+
+  .headshot {
+      position: absolute;
+      left: 2.5%;
+      top: 60%;
+      height: 125px;
+      width: 185px;
+      border: violet solid; 
+  }
+
+  .hero h2 {
+    font-family: cursive;
+    font-size: 25px;
+    color: purple;
+    margin-top: 300px;
+    margin-left: 1100px;
+    background-color: dimgray;
+  }
+
+  
+
