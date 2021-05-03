@@ -48,6 +48,13 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+header nav ul li a:hover {
+    background: lightpink;
+    color: lightslategray;
+    border-radius: 15px;
+    text-shadow: 2px 2px 5px lightseagreen;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -202,6 +209,10 @@ header nav ul li a {
       display:flex;
   }
 
+  .horiseon:hover {
+    opacity: 0.3;
+  }
+
   .devtool {
       background-image: url("../images/devtool.jpeg");
       background-size: cover;
@@ -210,6 +221,10 @@ header nav ul li a {
       min-height: 200px;
       display:flex;
   }
+
+  .devtool:hover {
+    opacity: 0.3;
+}
 
   .sun {
       background-image: url("../images/sun.jpeg");
@@ -220,6 +235,10 @@ header nav ul li a {
       display:flex;
   }
 
+  .sun:hover {
+    opacity: 0.3;
+}
+
   .webshot {
       background-image: url("../images/webshot.jpeg");
       background-size: cover;
@@ -228,6 +247,10 @@ header nav ul li a {
       min-height: 200px;
       display:flex;
   }
+
+  .webshot:hover {
+    opacity: 0.3;
+}
 
   .mycontact {
     display: flex;
@@ -249,6 +272,12 @@ header nav ul li a {
     justify-content: space-between;
     width: 87%;
   }
+
+  address a:hover {
+    text-shadow: 2px 2px 5px lightpink;
+    font-weight: bold;
+    font-style: italic;
+}
 
     .contactme {
     display: flex;  
