@@ -22,6 +22,7 @@ header h1 {
     color: purple;
     margin: 0;
     font-style: italic;
+    background-color: lightpink;
 }
 
 header a {
@@ -70,7 +71,7 @@ header nav ul li a {
       top: 60%;
       height: 125px;
       width: 185px;
-      border: violet solid; 
+      border: purple solid; 
   }
 
   .hero h2 {
@@ -118,6 +119,12 @@ header nav ul li a {
     flex: 2 2%;
 }
 
+.border1 {
+    border-right: 3px solid purple;
+    height: 400px;
+    flex: 2 2%;
+}
+
 .my-summary {
     flex: 20
 }
@@ -130,3 +137,123 @@ header nav ul li a {
     margin-left: 30px;
     width: 100%;
   }
+
+.mywork{  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 50px;  
+    width: 90%;
+    align-items: center;
+}
+
+  .flex-container {
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    margin-left: 15px;
+    width: 79.5%;    
+  }
+
+  .flex-item {
+      width: 50%;
+      border: 1px solid purple;
+      font-size: 10px;
+      margin-bottom: 10px;
+  }
+
+  .flex-item h2{
+      font-size: 15px;
+  }
+
+  .flex-item span {
+      font-size: 10px;
+  }
+
+  .span-title {
+      background-color: white;
+      height: 25px;
+      margin-bottom: 10px;
+      color: black;
+  }
+
+  .runbuddy  {
+      background-image: url("../images/050-mock-up.jpeg");
+      background-size: cover;
+      background-position: center;
+      padding: 20px 0;
+      min-height: 200px;
+      display:flex;
+      width: 100%;
+  }
+
+
+  .runbuddy:hover {
+     opacity: 0.3;
+  }
+
+  .horiseon {
+      background-image: url("../images/01-html-css-git-homework-demo.png");
+      background-size: cover;
+      background-position: center;
+      padding: 20px 0;
+      min-height: 200px;
+      display:flex;
+  }
+
+  .devtool {
+      background-image: url("../images/devtool.jpeg");
+      background-size: cover;
+      background-position: center;
+      padding: 20px 0;
+      min-height: 200px;
+      display:flex;
+  }
+
+  .sun {
+      background-image: url("../images/sun.jpeg");
+      background-size: cover;
+      background-position: center;
+      padding: 20px 0;
+      min-height: 200px;
+      display:flex;
+  }
+
+  .webshot {
+      background-image: url("../images/webshot.jpeg");
+      background-size: cover;
+      background-position: center;
+      padding: 20px 0;
+      min-height: 200px;
+      display:flex;
+  }
+
+  .mycontact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 50px;  
+    width: 90%;
+    align-items: center;
+  }
+
+  address a{
+    flex: 20;
+    padding: 10px 70px;
+    color: purple;
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 30px;
+    justify-content: space-between;
+    width: 87%;
+  }
+
+    .contactme {
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: center; 
+    margin-left: 15px;
+    width: 87%;
+    }
