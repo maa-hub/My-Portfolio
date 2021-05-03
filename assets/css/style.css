@@ -4,6 +4,8 @@ body {
     background-color: white;
 }
 
+
+/* header style */
 header {
     padding: 2.5px 25px;
     background-color: grey;
@@ -16,6 +18,8 @@ header {
     flex-wrap: wrap;
 }
 
+
+/* header h1 style */
 header h1 {
     font-weight: bold;
     font-size: 28px;
@@ -25,15 +29,21 @@ header h1 {
     background-color: lightpink;
 }
 
+
+/* header a element style */
 header a {
     text-decoration: none;
     color: purple;
 }
 
+
+/* header nav style */
 header nav {
     margin: 7px 0;
 }
 
+
+/* header list style */
 header nav ul { 
     display: flex;
     flex-wrap: wrap;
@@ -42,6 +52,8 @@ header nav ul {
     list-style: none;
 }
 
+
+/* header list a elements style */
 header nav ul li a {
    padding: 10px 15px;
     font-weight: lighter;
@@ -55,12 +67,16 @@ header nav ul li a:hover {
     text-shadow: 2px 2px 5px lightseagreen;
   }
 
+
+/* universal element style */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/* hero styling */
 .hero {
    background-size: cover;
    background-position: center;
@@ -72,6 +88,8 @@ header nav ul li a:hover {
    position: relative;
   }
 
+
+/* profile picture styling */
   .headshot {
       position: absolute;
       left: 2.5%;
@@ -81,6 +99,8 @@ header nav ul li a:hover {
       border: purple solid; 
   }
 
+
+/* style for hero section heading*/
   .hero h2 {
     font-family: cursive;
     font-size: 25px;
@@ -90,6 +110,8 @@ header nav ul li a:hover {
     background-color: dimgray;
   }
 
+
+/* style for about me section */
   .myabout {
     display: flex;
     flex-wrap: wrap;
@@ -145,6 +167,8 @@ header nav ul li a:hover {
     width: 100%;
   }
 
+
+/* style for work section */
 .mywork{  display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -252,6 +276,8 @@ header nav ul li a:hover {
     opacity: 0.3;
 }
 
+
+/* style for contact me section */
   .mycontact {
     display: flex;
     flex-wrap: wrap;
@@ -287,6 +313,8 @@ header nav ul li a:hover {
     width: 87%;
     }
 
+
+/* media querries max-width 980px */
     @media screen and (max-width: 980px) {
         header {
           padding-bottom: 10px;
